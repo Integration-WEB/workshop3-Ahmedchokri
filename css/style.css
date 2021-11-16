@@ -17,7 +17,9 @@ body {
   z-index: 1000;
 }
 
-
+.navbar-expand-lg{
+  background-color: rgb(110, 6, 207) !important;
+}
 
 /*============= FOOTER =============*/
 
@@ -57,16 +59,21 @@ body {
 
 /* Devices under 1199px (xl) */
 @media (min-width: 1200px) {
+  h1{font-size: 10px;}
 }
 /* Devices under 992px (lg) */
 @media (max-width: 992px) {
-  
+  h1{font-size: 7px;}
 }
 /* Devices under 768px (md) */
 @media (max-width: 768px) {
-  
+  h1{font-size: 7px;}
 }
 /* Devices under 576px (sm) */
 @media (max-width: 576px) {
-  
+  h1{font-size: 7px;}
+}
+.caption{
+
+text-transform: uppercase;
 }
